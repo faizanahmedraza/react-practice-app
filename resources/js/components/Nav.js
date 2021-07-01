@@ -1,15 +1,8 @@
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import Apply from "./Apply";
-import Career from "./Career";
-import IndustryData from "./IndustryData";
-import Investor from "./Investor";
-import ContactUs from "./ContactUs";
-import AboutUs from "./AboutUs";
+import {Link} from "react-router-dom";
 
 export default function Nav() {
     return (
-        <Router>
             <div className="navBar">
                 <ul>
                     <li>
@@ -34,28 +27,6 @@ export default function Nav() {
                 <div className="member-login">
                     <button className="btn btn-primary">Member Login</button>
                 </div>
-
-                <Switch>
-                    <Route path={"/apply"}>
-                        <Apply/>
-                    </Route>
-                    <Route path={"/career"}>
-                        <Career/>
-                    </Route>
-                    <Route path={"/industry-data"}>
-                        <IndustryData/>
-                    </Route>
-                    <Route path={"/investors"}>
-                        <Investor/>
-                    </Route>
-                    <Route path={"/contact-us"}>
-                        <ContactUs/>
-                    </Route>
-                    <Route path={"/about-us"}>
-                        <AboutUs/>
-                    </Route>
-                </Switch>
             </div>
-        </Router>
     );
 }

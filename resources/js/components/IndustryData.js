@@ -1,6 +1,21 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 
 export default function IndustryData() {
+
+    useEffect(() => {
+        fetchItems();
+    },[]);
+
+    const [items, setItems] = useState([]);
+
+    const fetchItems = async () => {
+        const data = await fetch('https://api.thecatapi.com/v1/favourites');
+
+        const items = await data.json();
+        console.log(items);
+        setItems(items);
+    }
+
     return (
         <div className="hero-banner hero-inner-banner">
             <div className="sideBar">
@@ -16,10 +31,7 @@ export default function IndustryData() {
                     </div>
                 </div>
                 <div className="main-wrapper">
-                    <p>The mutual funds industry has shown tremendous growth over the last decade, where the
-                        number of Asset Management Companies (AMCs), number of funds and type of funds has
-                        witnessed a dynamic expansion. MUFAP provides a summarized presentation of the key facts
-                        and figures of the AMCs, open and closed end funds and fund performance and sizes.</p>
+
                 </div>
             </div>
         </div>
