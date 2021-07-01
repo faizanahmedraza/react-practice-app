@@ -1,0 +1,28 @@
+.hero-inner-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-inner-banner .sideBar {
+  width: 300px;
+  background: #12523e;
+  height: 550px;
+}
+
+.hero-inner-banner .banner {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.hero-inner-banner .sideBar {
+  background: color(theme);
+  width: 300px;
+  height: 550px;
+}
+
+.about-banner {
+  background: url(../images/about-banner.jpg);
+}
+/*# sourceMappingURL=inner-pages.css.map */
