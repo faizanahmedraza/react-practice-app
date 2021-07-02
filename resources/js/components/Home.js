@@ -35,8 +35,8 @@ export default function Home() {
                 </div>
             </div>
             <div className="quick-links">
-                <a href={"javascript:;"}>Publication</a>
-                <a href={"javascript:;"}>Events</a>
+                <a href="javascript:void(0);">Publication</a>
+                <a href="javascript:void(0);">Events</a>
             </div>
             <div className="search-field">
                 <form action="">

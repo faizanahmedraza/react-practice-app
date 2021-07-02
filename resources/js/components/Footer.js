@@ -7,35 +7,35 @@ export default function Footer() {
                 <h1>Lodge Complaint</h1>
             </div>
             <div className="ftr-nav">
-                <a href={"javascript:;"} className="btn-learn-more">Learn More</a>
+                <a href="javascript:;" className="btn-learn-more">Learn More</a>
                 <div className="navsBar">
-                    <a href={"javascript:;"}>
+                    <a href="javascript:;">
                             <span className="svg-icon">
-                                <img src={"assets/frontend/svg/plant.svg"} alt=""/>
+                                <img src="/assets/svg/plant.svg" alt=""/>
                             </span>
                         <span className="title">Mutual Funds</span>
                     </a>
-                    <a href={"javascript:;"}>
+                    <a href="javascript:;">
                             <span className="svg-icon">
-                                <img src={"assets/frontend/svg/funds.svg"} alt=""/>
+                                <img src="/assets/svg/funds.svg" alt=""/>
                             </span>
                         <span className="title">Voluntary Pension Scheme</span>
                     </a>
-                    <a href={"javascript:;"}>
+                    <a href="javascript:;">
                             <span className="svg-icon">
-                                <img src={"assets/frontend/svg/file.svg"} alt=""/>
+                                <img src="/assets/svg/file.svg" alt=""/>
                             </span>
                         <span className="title">Exchange Trade Fund</span>
                     </a>
-                    <a href={"javascript:;"} className="ml-auto">
+                    <a href="javascript:;" className="ml-auto">
                             <span className="svg-icon">
-                                <img src={"assets/frontend/svg/file.svg"} alt=""/>
+                                <img src="/assets/svg/file.svg" alt=""/>
                             </span>
                         <span className="title">NAVs</span>
                     </a>
-                    <a href={"javascript:;"}>
+                    <a href="javascript:;">
                             <span className="svg-icon">
-                                <img src={"assets/frontend/svg/shipping.svg"} alt=""/>
+                                <img src="/assets/svg/shipping.svg" alt=""/>
                             </span>
                         <span className="title">RETURNS</span>
                     </a>
